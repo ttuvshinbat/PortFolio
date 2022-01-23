@@ -1,6 +1,7 @@
 @media screen and (min-width: 300px) {
     .backgroundImg{
-        background-image: url(../pictures/nature-1.jpg);
+        background-image: url(../pictures/nature-4.jpg);
+        
         background-size: 100vw 55vw;
         background-repeat: no-repeat;
         background-position-x: center;
@@ -13,8 +14,9 @@
         text-align: center;
         
     }
+    
     .navbarPic{
-        border: 3px solid black;
+        border: 4px solid black;
         border-radius: 30px;
         width: 65vw;
         height: 45vw;
@@ -27,7 +29,7 @@
        }
     .position2{
         position: absolute;
-        left: 20vw;
+        left: 30vw;
     }
     .position3{
         
@@ -37,83 +39,34 @@
     }
 @media screen and (min-width: 500px) {
 .backgroundImg{
-    background-image: url(../pictures/nature-1.jpg);
-    background-size: 100vw 60vw;
-    background-repeat: no-repeat;
-    background-position-x: center;
+   background-size: 100vw 60vw;
    
 }
-.center{
-  padding: 20vh 0;
-    text-align: center;
-    
-}
 .navbarPic{
-    border: 3px solid black;
-    border-radius: 30px;
     width: 65vw;
     height: 45vw;
 }
 }
 @media screen and (min-width: 750px){
     .backgroundImg{
-        background-image: url(../pictures/nature-1.jpg);
-        background-size: 100vw 70vw;
-        background-repeat: no-repeat;
-        background-position-x: center;
+       background-size: 100vw 70vw
        
     }
-    .center{
-      padding: 20vh 0;
-        text-align: center;
-        
-    }
+  
     .navbarPic{
-        border: 3px solid black;
-        border-radius: 30px;
+      
         width: 65vw;
         height: 55vw;
     }
 
 }
-@media screen and (min-width: 1000px){
-    .backgroundImg{
-        background-image: url(../pictures/nature-1.jpg);
-        background-size: 100vw 70%;
-        background-repeat: no-repeat;
-        background-position-x: center;
-       
-    }
-    .center{
-      padding: 20vh 0;
-        text-align: center;
-        
-    }
-    .navbarPic{
-        border: 3px solid black;
-        border-radius: 30px;
-        width: 65vw;
-        height: 65vh;
-    }
-    
 
-}
-@media screen and (min-width: 1750px){
+@media screen and (min-width: 1350px){
     .backgroundImg{
-        background-image: url(../pictures/nature-1.jpg);
-        background-size: 100vw 80%;
-        background-repeat: no-repeat;
-        background-position-x: center;
-       
+    background-size: 100vw 80%;    
     }
-    .center{
-      padding: 20vh 0;
-        text-align: center;
-        
-    }
+  
     .navbarPic{
-        border: 3px solid black;
-        border-radius: 30px;
         width: 70vw;
        height: auto;
     }

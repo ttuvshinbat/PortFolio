@@ -1,0 +1,97 @@
+.box-size{
+width: 100%;
+}
+.imgClass{
+    width: 100%;
+    max-height: 50vw;
+    
+}
+.box-size-2{
+  width: 65%;
+}
+.imgClass-2{
+    width: 100%;
+    max-height: 30vw;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.position-1{
+    position: relative;
+   
+}
+.position-2{
+   
+    position: absolute;
+    left: 17.5%;
+    top: 10vw;
+}
+.position-3{
+    position: absolute;
+    top: 0;
+width: 100%;
+background-color: rgba(255, 255, 255, 0.3 )!important ;
+}
+
+.click{
+    opacity: 0.6;
+   }
+   @media screen and (min-width: 350px){
+    .changeButton{
+        width: 20vw;
+        position: absolute;
+        
+        border: 2px solid white;
+        border-radius: 30px;
+        left: 40vw;
+        top: 33vw;
+        font-size: 12px;
+    }
+    .box-size-4{
+        width: 100vw;
+    }
+    .carousel-control-next-icon{
+       
+        height: 10vw !important;
+        width: 10vw !important;
+       
+    }
+    .carousel-control-prev-icon{
+        height: 10vw !important;
+        width: 10vw !important;
+       
+    }
+   
+   }
+   @media screen and (min-width: 800px){
+    .changeButton{
+        width: 15vw;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.4 );
+        border: 2px solid white;
+        border-radius: 30px;
+        left: 42.5vw;
+        top: 42vw;
+        font-size: 14px;
+    }
+    .box-size-4{
+        width: 80vw;
+    }
+    .position-1 .carousel-control-prev{
+       top: 15vw;
+        height: 20vw;
+    }
+   }
+       @media screen and (min-width: 1200px){
+        .changeButton{
+            width: 20vw;
+            left: 40vw;
+            top: 43vw;
+            padding: 5px;
+            font-size: 24px;
+            
+            }
+            .box-size-4{
+                width: 68vw;
+            }
+
+       }

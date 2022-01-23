@@ -1,15 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import './components/Navbar.js'
-import NavbarMenu from './components/Navbar.js';
-
-
+import Slide from './components/Slide.js';
+import Home from './components/home.js'
+import PictureOne from './components/picture/picture-1.js';
 
 function App() {
   return (
     <div>
+      <Home />
 
-      <NavbarMenu />
+
     </div>
   );
 }
