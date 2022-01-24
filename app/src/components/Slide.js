@@ -42,7 +42,7 @@ const Slide = () => {
                             return (
                                 <Carousel.Item interval={5000} className='box-size' >
                                     <img
-                                        className={theme ? 'd-block imgClass' : 'd-block  imgClass click'}
+                                        className={theme ? 'd-block click imgClass' : 'd-block  imgClass '}
                                         src={data.picture}
                                         alt="First slide" />
                                 </Carousel.Item>
@@ -52,7 +52,7 @@ const Slide = () => {
                     <Carousel variant="" className='position-2 box-size-2'>
                         {pictures.map(data => {
                             return (
-                                <Carousel.Item interval={5000} className='' >
+                                <Carousel.Item interval={5000} className='shadow' >
                                     <img
                                         className="d-block  imgClass-2"
                                         src={data.picture}
