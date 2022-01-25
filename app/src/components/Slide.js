@@ -8,12 +8,12 @@ import url_7 from '../pictures/nature-7.jpg';
 import url_8 from '../pictures/nature-8.jpg';
 import url_9 from '../pictures/nature-9.jpg';
 import url_10 from '../pictures/nature-10.jpg';
-import url_11 from '../pictures/nature-11.jpg';
+
 import Carousel from "react-bootstrap/Carousel";
 import "../css/nav.css"
-import { show } from "./context/ThemeContext"
+
 import NavbarMenu from './Navbar';
-import PictureOne from './picture/picture-1';
+
 
 
 
@@ -28,7 +28,7 @@ const Slide = () => {
         { picture: url_8 },
         { picture: url_9 },
         { picture: url_10 },
-        { picture: url_11 },]
+        ]
     const [theme, setTheme] = useState(true);
     const show = () => {
         setTheme(!theme)
@@ -65,11 +65,26 @@ const Slide = () => {
 
 
                     <button className='changeButton fw-bold' onClick={show}> <span className='d-none d-md-inline-block'>Change</span>Opacity</button>
-                </div>
-            </div>
+                    <div className=' '>
 
+                        <div className="row ">
+                            {pictures.map((data) => {
+                                return (
+                                    <div className='col-4'>
+
+                                        <div className=" my-2"><img className='three' src={data.picture} alt="" /></div>
+                                    </div>
+                                )
+
+                            })}
+                        </div>
+                    </div>
+
+                </div >
+            </div >
         </div >
-    )
 
+
+    )
 }
 export default Slide;

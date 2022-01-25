@@ -15,8 +15,6 @@
     { "picture": "/url8",
      "name":"natural picture8"},
     { "picture": "/url9",
-     "name":"natural picture9" },
-    { "picture": "/url10",
-         "name":"natural picture10" },
-         { "picture": "/url11",
-            "name":"natural picture11" }]
+     "name":"natural picture9" }
+    
+         ]
