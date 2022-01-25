@@ -14,7 +14,10 @@ width: 100%;
     max-height: 30vw;
     border: 3px solid white;
     border-radius: 30px;
+  
+    box-shadow: inset 30px 30px 30px 30px black ;
 }
+
 .position-1{
     position: relative;
    
@@ -59,6 +62,10 @@ background-color: rgba(255, 255, 255, 0.3 )!important ;
 
 .click{
     opacity: 0.6;
+   }
+   .position-1 .carousel-control-prev{
+       height: 11vw;
+       top: 20vw;
    }
    @media screen and (min-width: 350px){
     .changeButton{
