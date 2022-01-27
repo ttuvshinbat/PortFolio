@@ -58,7 +58,7 @@ const Slide = () => {
                                         src={data.picture}
                                         alt="First slide" />
                                 </Carousel.Item>
-                            )
+                            )   
                         })}
                     </Carousel>
                     <NavbarMenu />
