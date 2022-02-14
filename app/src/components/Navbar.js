@@ -9,6 +9,7 @@ const NavbarMenu = () => {
     //     </Nav.Link>
 
     // </NavDropdown.Item>
+    const lul = 123;
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" className='position-3 fs-3 fw-bold'>
