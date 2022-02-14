@@ -37,26 +37,30 @@ const Slide = () => {
         <div>
             <div className='backgroundImg' >
                 <div className='center'>
-                    <Carousel variant="flat" className='position-1  ' controls="false">
+                    {/* <Carousel variant="flat" className='position-1  ' controls="false">
                         {pictures.map(data => {
                             return (
                                 <Carousel.Item interval={5000} className='box-size' >
+                                    <div style={{backgroundImage: `url(${data.picture})`}}>
                                     <img
                                         className={theme ? 'd-block click imgClass' : 'd-block  imgClass '}
                                         src={data.picture}
-                                        alt="First slide" />
+                                        alt="First slide" />a
+                                    </div>
                                 </Carousel.Item>
                             )
                         })}
-                    </Carousel>
+                    </Carousel> */}
                     <Carousel variant="" className='position-2 box-size-2'>
                         {pictures.map(data => {
                             return (
                                 <Carousel.Item interval={5000} className='shadow' >
+                                    <div style={{backgroundImage: `url(${data.picture})`}}>sa
                                     <img
                                         className="d-block  imgClass-2"
                                         src={data.picture}
                                         alt="First slide" />
+                                    </div>
                                 </Carousel.Item>
                             )   
                         })}
